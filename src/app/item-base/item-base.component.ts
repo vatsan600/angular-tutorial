@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item-base.component.css']
 })
 export class ItemBaseComponent implements OnInit {
-
+  sourceUrl:string;
+  itemName:string;
+  itemDescription:string;
   constructor() { }
 
   ngOnInit(): void {

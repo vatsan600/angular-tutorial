@@ -2,6 +2,6 @@
     "items":[
         {"name":"burger","price":"150","sourceUrl":"./images/Burger.jpg"},
         {"name":"pizza","price":"200","sourceUrl":"./images/Pizza.jpg"},
-        {"name":"French Fries","price":"80","sourceUrl":"./images/French Fries.jpg"}
+        {"name":"French Fries","price":"80","sourceUrl":"./images/French Fries.jpg"} 
     ]
 }
