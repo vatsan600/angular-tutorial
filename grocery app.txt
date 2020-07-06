@@ -1,0 +1,22 @@
+grocery app
+
+items checkout
+
+items:
+
+each item is a component
+
+item component:
+has item name.
+has picture
+has +{{count}}- button
+has add to cart
+has price
+shaded out if not available.
+
+checkout:
+
+items selected should be dispayed at checkout with count option
+total price should be displayed at bottom
+checkout button
+able to remove an item completely
