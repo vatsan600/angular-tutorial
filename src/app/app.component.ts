@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import  * as data from '../assets/data.json';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tutorial';
+ data = [
+        {"name":"burger","price":"150","sourceUrl":"assets/images/Burger.jpg"},
+        {"name":"pizza","price":"200","sourceUrl":"assets/images/Pizza.jpg"},
+        {"name":"French Fries","price":"80","sourceUrl":"assets/images/FrenchFries.jpg"} 
+    ]
 }

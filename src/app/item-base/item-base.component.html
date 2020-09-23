@@ -1,12 +1,12 @@
-<p>item-base works!</p>
-<div>
-    <img src="{{sourceUrl}}">
+<div id = 'item-base-div'>
+    <img src={{sourceUrl}} class="image-class">
     <h2>{{itemName}}</h2>
-    <p>{{itemDescription}}</p>
-    <button type="button">+</button>
-    <p>{{displayNumberOfItems}}</p>
-    <button type="button">-</button>
+    <p>{{price}}</p>
+    <span>
+    <button type="button" (click) ="additem()">+</button>
+    <span>{{displayNumberOfItems}}</span>
+    <button type="button" (click) ="subitem()">-</button>
     <button type="button">Add</button>
-
+    </span>
 </div>
 

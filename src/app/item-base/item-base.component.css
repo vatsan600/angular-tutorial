@@ -1,0 +1,8 @@
+#item-base-div{
+    display: flex;
+    margin : 40px;
+}
+.image-class{
+    height: 150px;
+    width: 150px;
+}

@@ -1,1 +1,1 @@
-<app-item-base></app-item-base>
+<app-item-base *ngFor ='let items of data' [sourceUrl] = items.sourceUrl [price] = items.price [itemName] = items.name></app-item-base>
